@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1=title
+  if cover_art_url
+    <img src=#{cover_art_url}>
+  h1 #{song}
+  h1 #{artist}
+  if artist_note
+    p #{artist_note}
+  if album_note
+    p #{album_note}
+  if song_note
+    p #{song_note}

@@ -1,0 +1,47 @@
+{
+	"artists" : [
+	{
+		"name": "Injury Reserve",
+		"id": "4c4fa077-b351-4558-9013-b31e1fbd1d24",
+		"note":  "Placeholder",
+		"albums": [
+			{
+				"name": "By The Time I Get To Phoenix",
+				"id": "1c0924e1-dbce-4fa5-9963-e8d079d41690",
+				"note": "Placeholder",
+				"songs" : [
+					{
+						"name" : "Superman That",
+						"id" : "d1cad05f-20e1-4ff6-ad2b-9eb58a842c84",
+						"note" : "Placeholder"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Zerfas",
+		"id": "8bb3b82a-be20-4e7a-9830-284a6a8b6b6b",
+		"note":  "Zerfas was a psych-rock group out of indianapolis. Often described as what would happen if The Beattles leaned more into the psych sound on 'Revolver',",
+		"albums": [
+			{
+				"name": "Zerfas",
+				"id": "744b6d8e-bee6-45c3-a90d-409731fd7368",
+				"note": "This project was recorded and released in 1979 as the bands only album. It went on to become an underground classic, with copies of the original vinyl pressing selling for thousands of dollars. Zerfas continued to make music under the name 'Jubal' after its release.",
+				"songs" : [
+					{
+						"name" : "Zerfas - You Never Win",
+						"id" : "06eb5739-81cc-4b83-a526-995851bcd78d",
+						"note" : "This is the opening track on the album, dominated by a distorted and heavy riff. The sarcastic and dementing vocals, to me, represent your inner voice at a point when you're most harsh on yourself."
+					},
+					{
+						"name" : "The Piper",
+						"id" : "be8b30fe-cfdc-44ce-a3f4-486f9b599f07",
+						"note" : "This is the final track on the album, a dreamy and psychadelic track referencing the story of the Pied Piper. If there was ever song Zerfas should have gotten famous for, it's this one. The version played here is a special release, and was not on the original album."
+					}
+				]
+			}
+		]
+	}
+	]
+}
