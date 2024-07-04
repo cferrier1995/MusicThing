@@ -1,7 +1,9 @@
+// This is the script that will be run in the youtube music web app to call the current_song endpoint.
+// It is not used on the server.
+
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
-
 
 async function poll_songs() {
     while (true) {

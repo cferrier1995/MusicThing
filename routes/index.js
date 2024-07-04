@@ -1,7 +1,6 @@
 let express = require('express');
 let fs = require('fs');
 let router = express.Router();
-let data = JSON.parse(fs.readFileSync('data.json', 'utf8'));
 
 let current_song = "The Piper";
 
@@ -29,8 +28,13 @@ function Album(id, note, is_loved = false) {
 	this.is_loved = is_loved;
 }
 
-// Intialize our list of songs, with artist and album mappings.
+/* Intialize our list of songs, with artist and album mappings.
+   The notes for each album/artist/song should be structured in 
+   a way they can flow into eachother like sentences.
+   The ids are musicbrainz api ids.
+*/
 let songs = new Map();
+let data = JSON.parse(fs.readFileSync('data.json', 'utf8'));
 let artists = data.artists;
 // Not sure why for...in isn't working here. Do this instead.
 for (let i = 0; i < artists.length; i++) {
@@ -48,8 +52,9 @@ for (let i = 0; i < artists.length; i++) {
 	}
 }
 
-async function GetArtist(id) {
-  const url = "http://musicbrainz.org/ws/2/artist/" + id;
+// Gets info on an artist from the musicbrainz API.
+async function GetArtist(artist_id) {
+  const url = "http://musicbrainz.org/ws/2/artist/" + artist_id;
   console.log(url);
   try {
     const response = await fetch(url, {
@@ -67,8 +72,9 @@ async function GetArtist(id) {
   }
 }
 
-async function GetAlbum(id) {
-  const url = "http://musicbrainz.org/ws/2/release/" + id;
+// Gets info on an album from the musicbrainz API.
+async function GetAlbum(release_id) {
+  const url = "http://musicbrainz.org/ws/2/release/" + release_id;
   console.log(url);
   try {
     const response = await fetch(url, {
@@ -86,8 +92,9 @@ async function GetAlbum(id) {
   }
 }
 
-async function GetSong(id) {
-  const url = "http://musicbrainz.org/ws/2/recording/" + id;
+// Gets the cover art from the cover art archive.
+async function GetCoverArt(release_id) {
+  const url = "http://coverartarchive.org/release/" + release_id;
   console.log(url);
   try {
     const response = await fetch(url, {
@@ -105,8 +112,9 @@ async function GetSong(id) {
   }
 }
 
-async function GetCoverArt(id) {
-  const url = "http://coverartarchive.org/release/" + id;
+// Gets info on a song from the musicbrainz API.
+async function GetSong(song_id) {
+  const url = "http://musicbrainz.org/ws/2/recording/" + song_id;
   console.log(url);
   try {
     const response = await fetch(url, {
@@ -123,12 +131,14 @@ async function GetCoverArt(id) {
     console.error(error.message);
   }
 }
+
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
 (async() => {
-  // Doing this all in an async call w/ awaits is definitely not optimal, but I can't be arsed.
-  // We'll cache these anyways.
+  // Get data from the musicbrainz api for the correct names and such of the artist/album/ect.
+  // Fetch cover art if the album response indicates we have it.
+  // Doing this with async calls isn't great but I plan on caching this anyways.
   let song_entry = songs.get(current_song);
   let artist = await GetArtist(song_entry.artist.id);
   let album = await GetAlbum(song_entry.album.id);
@@ -143,12 +153,11 @@ router.get('/', function(req, res, next) {
 		}
 	  }
   }
-  console.log(cover_art_url);
   res.render('index', {artist: artist.name, artist_note: song_entry.artist.note, album_note: song_entry.album.note, song: song.title, song_note: song_entry.note, cover_art_url:cover_art_url});
 })()
 });
 
-
+/* POST Route to set the current song, called by polling_script.js in the browser window. */
 router.post('/current_song', function(req, res, next) {
   current_song = req.body.song_name;
   res.send("set song to " + current_song);
