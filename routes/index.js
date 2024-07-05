@@ -17,8 +17,8 @@ function Song(id, artist, album, note) {
 	this.note = note;
 }
 
-function Artist(id, note) {
-	this.id = id;
+function Artist(name, note) {
+	this.name = name;
 	this.note = note;
 }
 
@@ -39,7 +39,7 @@ let artists = data.artists;
 // Not sure why for...in isn't working here. Do this instead.
 for (let i = 0; i < artists.length; i++) {
 	let artist = artists[i];
-	let ar = new Artist(artist.id, artist.note);
+	let ar = new Artist(artist.name, artist.note);
 	for (let j = 0; j < artist["albums"].length; j++) {
 		let album = artist.albums[j];
 		let al = new Album(album.id, album.note, album.is_loved);
@@ -50,26 +50,6 @@ for (let i = 0; i < artists.length; i++) {
 			songs.set(song.name, new Song(song.id, ar, al, song.note));
 		}
 	}
-}
-
-// Gets info on an artist from the musicbrainz API.
-async function GetArtist(artist_id) {
-  const url = "http://musicbrainz.org/ws/2/artist/" + artist_id;
-  console.log(url);
-  try {
-    const response = await fetch(url, {
-    method  : 'GET', 
-    headers : headers
-	});
-    if (!response.ok) {
-      throw new Error(`Response status: ${response.status}`);
-    }
-
-    const json = await response.json();
-    return json;
-  } catch (error) {
-    console.error(error.message);
-  }
 }
 
 // Gets info on an album from the musicbrainz API.
@@ -140,7 +120,6 @@ router.get('/', function(req, res, next) {
   // Fetch cover art if the album response indicates we have it.
   // Doing this with async calls isn't great but I plan on caching this anyways.
   let song_entry = songs.get(current_song);
-  let artist = await GetArtist(song_entry.artist.id);
   let album = await GetAlbum(song_entry.album.id);
   let song = await GetSong(song_entry.id);
   let cover_art_url;
@@ -153,7 +132,8 @@ router.get('/', function(req, res, next) {
 		}
 	  }
   }
-  res.render('index', {artist: artist.name, artist_note: song_entry.artist.note, album_note: song_entry.album.note, song: song.title, song_note: song_entry.note, cover_art_url:cover_art_url});
+  let album_name = album.title == song_entry.artist.name ? "Self-Titled" : album.title;
+  res.render('index', {artist: song_entry.artist.name, year: album.date.substr(0,4), artist_note: song_entry.artist.note, album: album_name, album_note: song_entry.album.note, song: song.title, song_note: song_entry.note, cover_art_url:cover_art_url});
 })()
 });
 

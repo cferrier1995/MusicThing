@@ -2,7 +2,6 @@
 	"artists" : [
 	{
 		"name": "Injury Reserve",
-		"id": "4c4fa077-b351-4558-9013-b31e1fbd1d24",
 		"note":  "Placeholder",
 		"albums": [
 			{
@@ -20,8 +19,56 @@
 		]
 	},
 	{
+		"name": "Mr. Bungle",
+		"note": "Mr.Bungle is an experimental rock outfit that started out as a highschool band, they were signed to Warner Music when singer Mike Patton made that a condition to him accepting an offer to join the group 'Faith No More' as their frontmand. Mr.Bungle went on to produce some of the weirdest, most experimental rock of the 90s. They once joked they felt like they could release a blank CD as nobody from Warner was checking their work anyways.",
+		"albums": [
+			{
+				"name": "California",
+				"id": "54074f30-d926-3dc0-b1f1-5429e21d3d86",
+				"songs" : [
+					{
+						"name" : "Sweet Charity",
+						"id" : "25b03e08-3a3a-488e-9a36-5a0a7e478459",
+						"note" : "This is the opening track on the album, complete with Mike Pattons signature bombastic vocals. I have no idea what this song is about, but to me it evokes the feeling of the horror-movie trope of being in a remote, beachy town where something is sinister and not quite right."
+					},
+					{
+						"name" : "Pink Cigarette",
+						"id" : "63a79672-d327-4d19-a86e-587523d07c32",
+						"note" : "This track is maybe the most accessible track Mr. Bungle has ever made. I have no idea what it's about, but it evokes a sense of longing. Just overall a beautiful mix of instruments layered on top of each other."
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Pinback",
+		"albums": [
+			{
+				"name": "Pinback",
+				"id": "a4f059bd-881f-4805-bb5f-0ad098558253",
+				"songs" : [
+					{
+						"name" : "Crutch",
+						"id" : "cafe60d4-2984-4179-aa92-8c03e339915b",
+						"note" : "A lighthearted indie track with great instrumentation. 'Boo' is another great track from this band, that couldn't really fit into the playlist."
+					}
+				]
+			},
+			{
+				"name": "Summer in Abaddon",
+				"id": "cefee04c-9dcc-427f-99a1-69549297c7f8",
+				"songs" : [
+					{
+						"name" : "Non Photo-Blue",
+						"id" : "63a56b8a-a972-43a6-bb0e-2110e43fab26",
+						"note" : "A lighthearted indie track with great instrumentation. 'Boo' is another great track from this band, that couldn't really fit into the playlist."
+					}
+				]
+			}
+		]
+	},
+	{
 		"name": "Zerfas",
-		"id": "8bb3b82a-be20-4e7a-9830-284a6a8b6b6b",
 		"note":  "Zerfas was a psych-rock group out of indianapolis. Often described as what would happen if The Beattles leaned more into the psych sound on 'Revolver',",
 		"albums": [
 			{
