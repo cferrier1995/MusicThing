@@ -19,6 +19,81 @@
 		]
 	},
 	{
+		"name": "Joey Purp",
+		"note": "Joey Purp came onto the hip-hop scene in the mid 2010s with one of the most original, soulful, and creative sounds at the time. He was a part of the 'save money' group with Chance The Rapper and Vic Mensa. His music has, unfortunately, gone downhill after his initial releases. Fortunately, those early releases are timeless.",
+		"albums": [
+			{
+				"name": "iiiDrops",
+				"id": "a510ec95-0c46-4024-9041-359829775967",
+				"songs" : [
+					{
+						"name" : "Morning Sex",
+						"id" : "a4277068-eb75-4c4a-9edc-57179962985e",
+						"note": "This is the opening track on Joey's debut mixtape. A soulful, bombastic production with gospel samples and trumpets. God bless."
+					}
+				]
+			},
+			{
+                "name": "QUARTERTHING",
+				"id": "d1a28d53-2aaf-424d-bb0f-de53a8a8a695",
+				"songs" : [
+					{
+						"name" : "2012",
+						"id" : "f78d26fa-498e-429d-bffe-dca7a5902c6b",
+						"note": "This cut from Joey's first album is dreamy track that reminds of a quiet day at the park."
+					},
+					{
+						"name" : "Godbody (Pt. 2) (feat. RZA)",
+						"id" : "beb296a2-b5c3-40bc-8cb4-a865535ed0c8",
+						"note": "This is the second track from Joey Purps first album, technically a pt.2 to 'Godbody' from his mixtape. It features a brilliant spoken word intro from RZA and regal produciton."
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Mach Hommy",
+		"note": "Haitain Mach Hommy is a bit of an enigma. He's never revealed his face or name publically before, has never toured, and pulls his lyrics off of rap genius whenever they're posted. In short, he values his opacity. He's known for his quality beat selection, multi-lingualism and smooth bars on the haitain diaspora.",
+		"albums": [
+			{
+				"name": "Pray 4 Haiti",
+				"id": "ed0a8947-49c6-4347-9827-3d0081e064fe",
+				"songs" : [
+					{
+						"name" : "Kriminel",
+						"id" : "d0987cea-7564-494e-8c0f-2cedb3cd6572"
+					},
+					{
+						"name" : "Makrel Jaxon",
+						"id" : "5fc59237-5f5a-4ad0-b59a-99e42c107587"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Massive Attack",
+		"note": "",
+		"albums": [
+			{
+				"name": "Blue Lines",
+				"id": "3a25785e-50ec-383c-89cf-fd512181449c",
+				"songs" : [
+					{
+						"name" : "Safe From Harm (2012 Mix/Master)",
+						"id" : "823de184-19a6-4420-80b4-265afa81999c",
+						"note": "The opening track on massive attacks first, and most classic, album. Just a smooth trip-hop sound mixed with british vocals of questionable quality."
+					},
+					{
+						"name" : "Five Man Army (2012 Mix/Master)",
+						"id" : "b30b9943-9100-4d84-9ad2-69859ea88fbb",
+						"note": "My personal favoriate track on massive attacks debut album. Great rapping over a trip-hop beat with very nice singing on the backend."
+					}
+				]
+			}
+		]
+	},
+	{
 		"name": "Mr. Bungle",
 		"note": "Mr.Bungle is an experimental rock outfit that started out as a highschool band, they were signed to Warner Music when singer Mike Patton made that a condition to him accepting an offer to join the group 'Faith No More' as their frontmand. Mr.Bungle went on to produce some of the weirdest, most experimental rock of the 90s. They once joked they felt like they could release a blank CD as nobody from Warner was checking their work anyways.",
 		"albums": [
