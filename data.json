@@ -1,5 +1,5 @@
 {
-	"artists" : [
+  "artists" : [
 	{
 		"name": "Injury Reserve",
 		"note":  "Placeholder",
@@ -47,9 +47,9 @@
 						"id" : "beb296a2-b5c3-40bc-8cb4-a865535ed0c8",
 						"note": "This is the second track from Joey Purps first album, technically a pt.2 to 'Godbody' from his mixtape. It features a brilliant spoken word intro from RZA and regal produciton."
 					},
-					{					{
+					{
 						"name" : "Aw Sh*t!",
-						"id" : "23c65528-ee89-4815-af28-ef3d4407297e",
+						"id" : "23c65528-ee89-4815-af28-ef3d4407297e"
 					}
 				]
 			}
