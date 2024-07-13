@@ -7,8 +7,9 @@ function sleep(ms) {
 
 async function poll_songs() {
     while (true) {
-		let song_name = document.getElementsByClassName('title style-scope ytmusic-player-bar')[0].getRawText();
-        fetch('http://localhost:3000/current_song', {
+		let song_name = document.title.slice(0, -10);
+        fetch('https://music-thing-391d71bfd4ec.herokuapp.com/current_song', {
+			mode: 'no-cors',
 			method: 'POST',
 			body: JSON.stringify({
 				song_name: song_name
