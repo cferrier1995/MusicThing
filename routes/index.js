@@ -85,6 +85,7 @@ async function GetSong(song_id) {
   }
 }
 
+// Updates data related to the current song by invoking API Calls defined above.
 async function UpdateSongData() {
 	song_entry = songs.get(current_song);
 	album = await GetAlbum(song_entry.album.id);
