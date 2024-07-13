@@ -147,6 +147,23 @@
 		]
 	},
 	{
+		"name": "Your Old Droog",
+		"note":  "Brooklyn rapper Your Old Droog sounded so much like NAS on his introduction to the scene that people thought he was a NAS alter-ego, Droog took this as a compliment.",
+		"albums": [
+			{
+				"name": "DBZ",
+				"id": "009b29f5-fc0b-4cae-906f-ed9ef1d20fc0",
+				"songs" : [
+					{
+						"name" : "Your Old Droog - DBZ ft. Denzel Curry, Method Man (Official Video)",
+						"id" : "a48c99bd-0068-461b-aaa1-f246be43341a",
+						"note" : "On this smooth, vintage sounding traffic over Madlib production. Denzel Curry, Droog, and the legendary Method Man collaborate over a smooth Madlib beat. Anyone who says real hip-hop is dead isn't looking hard enough."
+					}
+				]
+			}
+		]
+	},
+	{
 		"name": "Zerfas",
 		"note":  "Zerfas was a psych-rock group out of indianapolis. Often described as what would happen if The Beattles leaned more into the psych sound on 'Revolver',",
 		"albums": [

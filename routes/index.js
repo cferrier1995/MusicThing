@@ -133,7 +133,13 @@ router.get('/', function(req, res, next) {
 		}
 	  }
   }
-  let album_name = album.title == song_entry.artist.name ? "Self-Titled" : album.title;
+  let album_name = album.title;
+  if (album_name == song_entry.artist.name) {
+	  album_name = "Self-Titled";
+  }
+  else if (album_name == song.title) {
+	  album_name = "Single";
+  }
   res.render('index', {artist: song_entry.artist.name, year: album.date.substr(0,4), artist_note: song_entry.artist.note, album: album_name, album_note: song_entry.album.note, song: song.title, song_note: song_entry.note, cover_art_url:cover_art_url});
 })()
 });
