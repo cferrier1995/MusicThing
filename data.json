@@ -65,7 +65,9 @@
 				"songs" : [
 					{
 						"name" : "Kriminel",
-						"id" : "d0987cea-7564-494e-8c0f-2cedb3cd6572"
+						"id" : "d0987cea-7564-494e-8c0f-2cedb3cd6572",
+						"note": "The Chrous on this track roughly translates to: 'They say I'm a Criminal. Look I'm not a criminal. It's them that are criminals. It's those people that are criminals'. Mach Hommy is talking about the persecution he and his friends faced under former president Marthély in Haiti."
+
 					},
 					{
 						"name" : "Makrel Jaxon",
@@ -91,7 +93,7 @@
 					{
 						"name" : "Five Man Army (2012 Mix/Master)",
 						"id" : "b30b9943-9100-4d84-9ad2-69859ea88fbb",
-						"note": "My personal favoriate track on massive attacks debut album. Great rapping over a trip-hop beat with very nice singing on the backend."
+						"note": "My personal favoriate track on massive attacks debut album. Great rapping over a trip-hop beat with very nice singing on the backend. The drum line particularly addictive here."
 					}
 				]
 			}
