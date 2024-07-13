@@ -10,6 +10,10 @@ let headers = new Headers({
     "User-Agent"   : "SmallJavascriptApp ferriercory@gmail.com"
 });
 
+// Pick an arbitrary song.
+let current_song = "The Piper";
+let fetched_song, song_entry, album_name, album, song, cover_art_url;
+
 function Song(id, artist, album, note) {
 	this.id = id;
 	this.artist = artist;
@@ -117,8 +121,10 @@ router.get('/', function(req, res, next) {
 /* POST Route to set the current song, called by polling_script.js in the browser window. */
 router.post('/current_song', function(req, res, next) {
   current_song = req.body.song_name;
-  // A new song has been pushed, refresh our data.
-  UpdateSongData();
+  if (current_song != fetched_song) {
+	// A new song has been pushed, refresh our data.
+    UpdateSongData();
+  }
   res.send("set song to " + current_song);
 });
 
@@ -145,8 +151,6 @@ for (let i = 0; i < artists.length; i++) {
 	}
 }
 
-// Pick an arbitrary song and update Song Data on Start.
-let current_song = "The Piper";
-let fetched_song, song_entry, album_name, album, song, cover_art_url;
+// Update song data on start.
 UpdateSongData();
 module.exports = router;

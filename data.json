@@ -1,5 +1,40 @@
 {
   "artists" : [
+  	{
+		"name": "Duckwrth",
+		"albums": [
+			{
+				"name": "Nowhere",
+				"id": "f85033d0-0988-4fc4-9e52-861c9a77d947",
+				"note": "Duckwrths first album is a rich mid-2010s blend of cloudrap and rock music. He displays more creativity project on this project than nearly any project that's come from any artist after, including his own follow-up works. The tradeoff is that technically the project feels rough around the edges, to the point of being almost cringeworthy at points. That doesn't hold it back from being a bit of a hidden gem.",
+				"songs" : [
+					{
+						"name" : "PSYCHO - Duckwrth X The Kickdrums (Official Video)",
+						"id" : "13129e4e-6ff1-4e7e-8011-e39809dd867f"
+					},
+					{
+						"name" : "Duckwrth x The Kickdrums - \"INDICA la ROUX\" feat. Miloh Smith",
+						"id" : "7cdb7ce0-4bf3-4179-b207-1b97266a7844"
+					},
+					{
+						"name" : "Naruto",
+						"id" : "ae6d983a-885a-4733-883b-708057ae9905"
+					}
+				]
+			},
+			{
+				"name": "SuperGood",
+				"id": "0c03fac2-05b9-4d20-bac4-dcecb4cc9560",
+				"note": "This is a more recent Duckwrth project, where he sheds a lot of his earlier creativity in favor of a more commercially palpably sound. This album is a lot more tradition R&B, and it's still smooth as hell",
+				"songs" : [
+					{
+						"name" : "DUCKWRTH - Kiss U Right Now (Official Video)",
+						"id" : "937524f7-89f8-4eba-83b0-de7ef12b7e21"
+					}
+				]
+			}
+		]
+	},
 	{
 		"name": "Injury Reserve",
 		"note":  "Placeholder",
