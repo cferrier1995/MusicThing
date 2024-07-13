@@ -1,7 +1,12 @@
 doctype html
 html
   head
-    title= title
+  <link rel="manifest" href="/favicon/site.webmanifest">
+    title= 'The Music Thing'
+    link(rel='icon', type='image/png', sizes='32x32', href='/favicon/favicon-32x32.png')
+    link(rel='icon', type='image/png', sizes='16x16', href='/favicon/favicon-16x16.png')
+    link(rel='manifest', href='/favicon/site.webmanifest')
+    link(rel='apply-touch-icon', href='/favicon/apply-touch-icon.png')
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
     block content
