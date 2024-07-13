@@ -119,6 +119,7 @@ router.get('/', function(req, res, next) {
   // Get data from the musicbrainz api for the correct names and such of the artist/album/ect.
   // Fetch cover art if the album response indicates we have it.
   // Doing this with async calls isn't great but I plan on caching this anyways.
+  console.log(current_song);
   let song_entry = songs.get(current_song);
   let album = await GetAlbum(song_entry.album.id);
   let song = await GetSong(song_entry.id);
@@ -139,6 +140,7 @@ router.get('/', function(req, res, next) {
 
 /* POST Route to set the current song, called by polling_script.js in the browser window. */
 router.post('/current_song', function(req, res, next) {
+  console.log(req.body);
   current_song = req.body.song_name;
   res.send("set song to " + current_song);
 });
