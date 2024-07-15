@@ -1,14 +1,22 @@
 extends layout
 
 block content
-  h1=title
-  if cover_art_url
-    <img src=#{cover_art_url}>
-  h1 #{song}
-  h1 #{artist} • #{album} • #{year}
-  if artist_note
-    p #{artist_note}
-  if album_note
-    p #{album_note}
-  if song_note
-    p #{song_note}
+  .bg_img
+    if cover_art_url
+      <img src=#{cover_art_url}>
+  .container
+    .image_wrapper
+      //- h1=title
+      .vinyl
+        .label
+          if cover_art_url
+            <img src=#{cover_art_url}>
+    .content_wrapper
+      h1 #{song}
+      h2 #{artist} • #{album} • #{year}
+      if artist_note
+        p #{artist_note}
+      if album_note
+        p #{album_note}
+      if song_note
+        p #{song_note}
