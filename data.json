@@ -1,5 +1,40 @@
 {
   "artists" : [
+  	{
+		"name": "Duckwrth",
+		"albums": [
+			{
+				"name": "Nowhere",
+				"id": "f85033d0-0988-4fc4-9e52-861c9a77d947",
+				"note": "Duckwrths first album is a rich mid-2010s blend of cloudrap and rock music. He displays more creativity project on this project than nearly any project that's come from any artist after, including his own follow-up works. The tradeoff is that technically the project feels rough around the edges, to the point of being almost cringeworthy at points. That doesn't hold it back from being a bit of a hidden gem.",
+				"songs" : [
+					{
+						"name" : "PSYCHO - Duckwrth X The Kickdrums (Official Video)",
+						"id" : "13129e4e-6ff1-4e7e-8011-e39809dd867f"
+					},
+					{
+						"name" : "Duckwrth x The Kickdrums - \"INDICA la ROUX\" feat. Miloh Smith",
+						"id" : "7cdb7ce0-4bf3-4179-b207-1b97266a7844"
+					},
+					{
+						"name" : "Naruto",
+						"id" : "ae6d983a-885a-4733-883b-708057ae9905"
+					}
+				]
+			},
+			{
+				"name": "SuperGood",
+				"id": "0c03fac2-05b9-4d20-bac4-dcecb4cc9560",
+				"note": "This is a more recent Duckwrth project, where he sheds a lot of his earlier creativity in favor of a more commercially palpably sound. This album is a lot more tradition R&B, and it's still smooth as hell",
+				"songs" : [
+					{
+						"name" : "DUCKWRTH - Kiss U Right Now (Official Video)",
+						"id" : "937524f7-89f8-4eba-83b0-de7ef12b7e21"
+					}
+				]
+			}
+		]
+	},
 	{
 		"name": "Injury Reserve",
 		"note":  "Placeholder",
@@ -65,7 +100,9 @@
 				"songs" : [
 					{
 						"name" : "Kriminel",
-						"id" : "d0987cea-7564-494e-8c0f-2cedb3cd6572"
+						"id" : "d0987cea-7564-494e-8c0f-2cedb3cd6572",
+						"note": "The Chrous on this track roughly translates to: 'They say I'm a Criminal. Look I'm not a criminal. It's them that are criminals. It's those people that are criminals'. Mach Hommy is talking about the persecution he and his friends faced under former president Marthély in Haiti."
+
 					},
 					{
 						"name" : "Makrel Jaxon",
@@ -91,7 +128,7 @@
 					{
 						"name" : "Five Man Army (2012 Mix/Master)",
 						"id" : "b30b9943-9100-4d84-9ad2-69859ea88fbb",
-						"note": "My personal favoriate track on massive attacks debut album. Great rapping over a trip-hop beat with very nice singing on the backend."
+						"note": "My personal favoriate track on massive attacks debut album. Great rapping over a trip-hop beat with very nice singing on the backend. The drum line particularly addictive here."
 					}
 				]
 			}
@@ -111,9 +148,9 @@
 						"note" : "This is the opening track on the album, complete with Mike Pattons signature bombastic vocals. I have no idea what this song is about, but to me it evokes the feeling of the horror-movie trope of being in a remote, beachy town where something is sinister and not quite right."
 					},
 					{
-						"name" : "Pink Cigarette",
+						"name" : "Mr. Bungle- Pink Cigarette Music Video",
 						"id" : "63a79672-d327-4d19-a86e-587523d07c32",
-						"note" : "This track is maybe the most accessible track Mr. Bungle has ever made. I have no idea what it's about, but it evokes a sense of longing. Just overall a beautiful mix of instruments layered on top of each other."
+						"note" : "I love this song. This track is maybe the most accessible track Mr. Bungle has ever made, and demonstrates Patton's phenomental vocal range. The 'Pink Cigarette' is both a metaphor for a love that is intense but ultimately temporarily, and the literal cigarette left by Pattons star-crossed lover. Worth noting, the music video is unofficial."
 					}
 				]
 			}
