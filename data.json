@@ -1,227 +1,271 @@
 {
-  "artists" : [
-  	{
-		"name": "Duckwrth",
-		"albums": [
-			{
-				"name": "Nowhere",
-				"id": "f85033d0-0988-4fc4-9e52-861c9a77d947",
-				"note": "Duckwrths first album is a rich mid-2010s blend of cloudrap and rock music. He displays more creativity project on this project than nearly any project that's come from any artist after, including his own follow-up works. The tradeoff is that technically the project feels rough around the edges, to the point of being almost cringeworthy at points. That doesn't hold it back from being a bit of a hidden gem.",
-				"songs" : [
-					{
-						"name" : "PSYCHO - Duckwrth X The Kickdrums (Official Video)",
-						"id" : "13129e4e-6ff1-4e7e-8011-e39809dd867f"
-					},
-					{
-						"name" : "Duckwrth x The Kickdrums - \"INDICA la ROUX\" feat. Miloh Smith",
-						"id" : "7cdb7ce0-4bf3-4179-b207-1b97266a7844"
-					},
-					{
-						"name" : "Naruto",
-						"id" : "ae6d983a-885a-4733-883b-708057ae9905"
-					}
-				]
-			},
-			{
-				"name": "SuperGood",
-				"id": "0c03fac2-05b9-4d20-bac4-dcecb4cc9560",
-				"note": "This is a more recent Duckwrth project, where he sheds a lot of his earlier creativity in favor of a more commercially palpably sound. This album is a lot more tradition R&B, and it's still smooth as hell",
-				"songs" : [
-					{
-						"name" : "DUCKWRTH - Kiss U Right Now (Official Video)",
-						"id" : "937524f7-89f8-4eba-83b0-de7ef12b7e21"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Injury Reserve",
-		"note":  "Placeholder",
-		"albums": [
-			{
-				"name": "By The Time I Get To Phoenix",
-				"id": "1c0924e1-dbce-4fa5-9963-e8d079d41690",
-				"note": "Placeholder",
-				"songs" : [
-					{
-						"name" : "Injury Reserve - Superman That",
-						"id" : "d1cad05f-20e1-4ff6-ad2b-9eb58a842c84",
-						"note" : "Placeholder"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Joey Purp",
-		"note": "Joey Purp came onto the hip-hop scene in the mid 2010s with one of the most original, soulful, and creative sounds at the time. He was a part of the 'save money' group with Chance The Rapper and Vic Mensa. His music has, unfortunately, gone downhill after his initial releases. Fortunately, those early releases are timeless.",
-		"albums": [
-			{
-				"name": "iiiDrops",
-				"id": "a510ec95-0c46-4024-9041-359829775967",
-				"songs" : [
-					{
-						"name" : "Morning Sex",
-						"id" : "a4277068-eb75-4c4a-9edc-57179962985e",
-						"note": "This is the opening track on Joey's debut mixtape. A soulful, bombastic production with gospel samples and trumpets. God bless."
-					}
-				]
-			},
-			{
-                "name": "QUARTERTHING",
-				"id": "d1a28d53-2aaf-424d-bb0f-de53a8a8a695",
-				"songs" : [
-					{
-						"name" : "2012",
-						"id" : "f78d26fa-498e-429d-bffe-dca7a5902c6b",
-						"note": "This cut from Joey's first album is dreamy track that reminds of a quiet day at the park."
-					},
-					{
-						"name" : "Godbody (Pt. 2) (feat. RZA)",
-						"id" : "beb296a2-b5c3-40bc-8cb4-a865535ed0c8",
-						"note": "This is the second track from Joey Purps first album, technically a pt.2 to 'Godbody' from his mixtape. It features a brilliant spoken word intro from RZA and regal produciton."
-					},
-					{
-						"name" : "Aw Sh*t!",
-						"id" : "23c65528-ee89-4815-af28-ef3d4407297e"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Mach Hommy",
-		"note": "Haitain Mach Hommy is a bit of an enigma. He's never revealed his face or name publically before, has never toured, and pulls his lyrics off of rap genius whenever they're posted. In short, he values his opacity. He's known for his quality beat selection, multi-lingualism and smooth bars on the haitain diaspora.",
-		"albums": [
-			{
-				"name": "Pray 4 Haiti",
-				"id": "ed0a8947-49c6-4347-9827-3d0081e064fe",
-				"songs" : [
-					{
-						"name" : "Kriminel",
-						"id" : "d0987cea-7564-494e-8c0f-2cedb3cd6572",
-						"note": "The Chrous on this track roughly translates to: 'They say I'm a Criminal. Look I'm not a criminal. It's them that are criminals. It's those people that are criminals'. Mach Hommy is talking about the persecution he and his friends faced under former president Marthély in Haiti."
-
-					},
-					{
-						"name" : "Makrel Jaxon",
-						"id" : "5fc59237-5f5a-4ad0-b59a-99e42c107587"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Massive Attack",
-		"note": "",
-		"albums": [
-			{
-				"name": "Blue Lines",
-				"id": "3a25785e-50ec-383c-89cf-fd512181449c",
-				"songs" : [
-					{
-						"name" : "Safe From Harm (2012 Mix/Master)",
-						"id" : "823de184-19a6-4420-80b4-265afa81999c",
-						"note": "The opening track on massive attacks first, and most classic, album. Just a smooth trip-hop sound mixed with british vocals of questionable quality."
-					},
-					{
-						"name" : "Five Man Army (2012 Mix/Master)",
-						"id" : "b30b9943-9100-4d84-9ad2-69859ea88fbb",
-						"note": "My personal favoriate track on massive attacks debut album. Great rapping over a trip-hop beat with very nice singing on the backend. The drum line particularly addictive here."
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Mr. Bungle",
-		"note": "Mr.Bungle is an experimental rock outfit that started out as a highschool band, they were signed to Warner Music when singer Mike Patton made that a condition to him accepting an offer to join the group 'Faith No More' as their frontmand. Mr.Bungle went on to produce some of the weirdest, most experimental rock of the 90s. They once joked they felt like they could release a blank CD as nobody from Warner was checking their work anyways.",
-		"albums": [
-			{
-				"name": "California",
-				"id": "54074f30-d926-3dc0-b1f1-5429e21d3d86",
-				"songs" : [
-					{
-						"name" : "Sweet Charity",
-						"id" : "25b03e08-3a3a-488e-9a36-5a0a7e478459",
-						"note" : "This is the opening track on the album, complete with Mike Pattons signature bombastic vocals. I have no idea what this song is about, but to me it evokes the feeling of the horror-movie trope of being in a remote, beachy town where something is sinister and not quite right."
-					},
-					{
-						"name" : "Mr. Bungle- Pink Cigarette Music Video",
-						"id" : "63a79672-d327-4d19-a86e-587523d07c32",
-						"note" : "I love this song. This track is maybe the most accessible track Mr. Bungle has ever made, and demonstrates Patton's phenomental vocal range. The 'Pink Cigarette' is both a metaphor for a love that is intense but ultimately temporarily, and the literal cigarette left by Pattons star-crossed lover. Worth noting, the music video is unofficial."
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Pinback",
-		"albums": [
-			{
-				"name": "Pinback",
-				"id": "a4f059bd-881f-4805-bb5f-0ad098558253",
-				"songs" : [
-					{
-						"name" : "Crutch",
-						"id" : "cafe60d4-2984-4179-aa92-8c03e339915b",
-						"note" : "A lighthearted indie track with great instrumentation. 'Boo' is another great track from this band, that couldn't really fit into the playlist."
-					}
-				]
-			},
-			{
-				"name": "Summer in Abaddon",
-				"id": "cefee04c-9dcc-427f-99a1-69549297c7f8",
-				"songs" : [
-					{
-						"name" : "Non Photo-Blue",
-						"id" : "63a56b8a-a972-43a6-bb0e-2110e43fab26",
-						"note" : "A lighthearted indie track with great instrumentation. 'Boo' is another great track from this band, that couldn't really fit into the playlist."
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Your Old Droog",
-		"note":  "Brooklyn rapper Your Old Droog sounded so much like NAS on his introduction to the scene that people thought he was a NAS alter-ego, Droog took this as a compliment.",
-		"albums": [
-			{
-				"name": "DBZ",
-				"id": "009b29f5-fc0b-4cae-906f-ed9ef1d20fc0",
-				"songs" : [
-					{
-						"name" : "Your Old Droog - DBZ ft. Denzel Curry, Method Man (Official Video)",
-						"id" : "a48c99bd-0068-461b-aaa1-f246be43341a",
-						"note" : "On this smooth, vintage sounding traffic over Madlib production. Denzel Curry, Droog, and the legendary Method Man collaborate over a smooth Madlib beat. Anyone who says real hip-hop is dead isn't looking hard enough."
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Zerfas",
-		"note":  "Zerfas was a psych-rock group out of indianapolis. Often described as what would happen if The Beattles leaned more into the psych sound on 'Revolver',",
-		"albums": [
-			{
-				"name": "Zerfas",
-				"id": "744b6d8e-bee6-45c3-a90d-409731fd7368",
-				"note": "This project was recorded and released in 1979 as the bands only album. It went on to become an underground classic, with copies of the original vinyl pressing selling for thousands of dollars. Zerfas continued to make music under the name 'Jubal' after its release.",
-				"songs" : [
-					{
-						"name" : "Zerfas - You Never Win",
-						"id" : "06eb5739-81cc-4b83-a526-995851bcd78d",
-						"note" : "This is the opening track on the album, dominated by a distorted and heavy riff. The sarcastic and dementing vocals, to me, represent your inner voice at a point when you're most harsh on yourself."
-					},
-					{
-						"name" : "The Piper",
-						"id" : "be8b30fe-cfdc-44ce-a3f4-486f9b599f07",
-						"note" : "This is the final track on the album, a dreamy and psychedelic track referencing the story of the Pied Piper. If there was ever song Zerfas should have gotten famous for, it's this one. The version played here is a special release, and was not on the original album."
-					}
-				]
-			}
-		]
-	}
-	]
+    "artists": [
+        {
+            "name": "Cleopatrick",
+            "note": "Placeholder",
+            "albums": [
+                {
+                    "name": "Bummer!",
+                    "id": "7088a214-bef0-41b7-bf52-3c25feed7587",
+                    "note": "Placeholder",
+                    "songs": [
+                        {
+                            "name": "cleopatrick - THE DRAKE (Official Lyric Video)",
+                            "id": "dc027fcf-317d-4e5c-af6d-9098b8f7f448",
+                            "note": "Placeholder"
+                        },
+                        {
+                            "name": "cleopatrick - GOOD GRIEF (Official Video)",
+                            "id": "dfc2ffef-372e-4b4a-a51f-89077b6f53a3",
+                            "note": "Placeholder"
+                        },
+                        {
+                            "name": "cleopatrick - FAMILY VAN (Official Video))",
+                            "id": "a3f373c7-1a54-4006-be02-8684ebe4e512",
+                            "note": "Placeholder"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Duckwrth",
+            "albums": [
+                {
+                    "name": "Nowhere",
+                    "id": "f85033d0-0988-4fc4-9e52-861c9a77d947",
+                    "note": "Duckwrths first album is a rich mid-2010s blend of cloudrap and rock music. He displays more creativity project on this project than nearly any project that's come from any artist after, including his own follow-up works. The tradeoff is that technically the project feels rough around the edges, to the point of being almost cringeworthy at points. That doesn't hold it back from being a bit of a hidden gem.",
+                    "songs": [
+                        {
+                            "name": "PSYCHO - Duckwrth X The Kickdrums (Official Video)",
+                            "id": "13129e4e-6ff1-4e7e-8011-e39809dd867f"
+                        },
+                        {
+                            "name": "Duckwrth x The Kickdrums - \"INDICA la ROUX\" feat. Miloh Smith",
+                            "id": "7cdb7ce0-4bf3-4179-b207-1b97266a7844"
+                        },
+                        {
+                            "name": "Naruto",
+                            "id": "ae6d983a-885a-4733-883b-708057ae9905"
+                        }
+                    ]
+                },
+                {
+                    "name": "SuperGood",
+                    "id": "0c03fac2-05b9-4d20-bac4-dcecb4cc9560",
+                    "note": "This is a more recent Duckwrth project, where he sheds a lot of his earlier creativity in favor of a more commercially palpably sound. This album is a lot more tradition R&B, and it's still smooth as hell",
+                    "songs": [
+                        {
+                            "name": "DUCKWRTH - Kiss U Right Now (Official Video)",
+                            "id": "937524f7-89f8-4eba-83b0-de7ef12b7e21"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Injury Reserve",
+            "note": "Placeholder",
+            "albums": [
+                {
+                    "name": "By The Time I Get To Phoenix",
+                    "id": "1c0924e1-dbce-4fa5-9963-e8d079d41690",
+                    "note": "Placeholder",
+                    "songs": [
+                        {
+                            "name": "Injury Reserve - Superman That",
+                            "id": "d1cad05f-20e1-4ff6-ad2b-9eb58a842c84",
+                            "note": "Placeholder"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Joey Purp",
+            "note": "Joey Purp came onto the hip-hop scene in the mid 2010s with one of the most original, soulful, and creative sounds at the time. He was a part of the 'save money' group with Chance The Rapper and Vic Mensa. His music has, unfortunately, gone downhill after his initial releases. Fortunately, those early releases are timeless.",
+            "albums": [
+                {
+                    "name": "iiiDrops",
+                    "id": "a510ec95-0c46-4024-9041-359829775967",
+                    "songs": [
+                        {
+                            "name": "Morning Sex",
+                            "id": "a4277068-eb75-4c4a-9edc-57179962985e",
+                            "note": "This is the opening track on Joey's debut mixtape. A soulful, bombastic production with gospel samples and trumpets. God bless."
+                        }
+                    ]
+                },
+                {
+                    "name": "QUARTERTHING",
+                    "id": "d1a28d53-2aaf-424d-bb0f-de53a8a8a695",
+                    "songs": [
+                        {
+                            "name": "2012",
+                            "id": "f78d26fa-498e-429d-bffe-dca7a5902c6b",
+                            "note": "This cut from Joey's first album is dreamy track that reminds of a quiet day at the park."
+                        },
+                        {
+                            "name": "Godbody (Pt. 2) (feat. RZA)",
+                            "id": "beb296a2-b5c3-40bc-8cb4-a865535ed0c8",
+                            "note": "This is the second track from Joey Purps first album, technically a pt.2 to 'Godbody' from his mixtape. It features a brilliant spoken word intro from RZA and regal produciton."
+                        },
+                        {
+                            "name": "Joey Purp - Aw Sh*t!",
+                            "id": "23c65528-ee89-4815-af28-ef3d4407297e"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mach Hommy",
+            "note": "Haitain Mach Hommy is a bit of an enigma. He's never revealed his face or name publically before, has never toured, and pulls his lyrics off of rap genius whenever they're posted. In short, he values his opacity. He's known for his quality beat selection, multi-lingualism and smooth bars on the haitain diaspora.",
+            "albums": [
+                {
+                    "name": "Pray 4 Haiti",
+                    "id": "ed0a8947-49c6-4347-9827-3d0081e064fe",
+                    "songs": [
+                        {
+                            "name": "Kriminel",
+                            "id": "d0987cea-7564-494e-8c0f-2cedb3cd6572",
+                            "note": "The Chrous on this track roughly translates to: 'They say I'm a Criminal. Look I'm not a criminal. It's them that are criminals. It's those people that are criminals'. Mach Hommy is talking about the persecution he and his friends faced under former president Marthély in Haiti."
+                        },
+                        {
+                            "name": "Makrel Jaxon",
+                            "id": "5fc59237-5f5a-4ad0-b59a-99e42c107587"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Massive Attack",
+            "note": "",
+            "albums": [
+                {
+                    "name": "Blue Lines",
+                    "id": "3a25785e-50ec-383c-89cf-fd512181449c",
+                    "songs": [
+                        {
+                            "name": "Safe From Harm (2012 Mix/Master)",
+                            "id": "823de184-19a6-4420-80b4-265afa81999c",
+                            "note": "The opening track on massive attacks first, and most classic, album. Just a smooth trip-hop sound mixed with british vocals of questionable quality."
+                        },
+                        {
+                            "name": "Five Man Army (2012 Mix/Master)",
+                            "id": "b30b9943-9100-4d84-9ad2-69859ea88fbb",
+                            "note": "My personal favoriate track on massive attacks debut album. Great rapping over a trip-hop beat with very nice singing on the backend. The drum line particularly addictive here."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mr. Bungle",
+            "note": "Mr.Bungle is an experimental rock outfit that started out as a highschool band, they were signed to Warner Music when singer Mike Patton made that a condition to him accepting an offer to join the group 'Faith No More' as their frontmand. Mr.Bungle went on to produce some of the weirdest, most experimental rock of the 90s. They once joked they felt like they could release a blank CD as nobody from Warner was checking their work anyways.",
+            "albums": [
+                {
+                    "name": "California",
+                    "id": "54074f30-d926-3dc0-b1f1-5429e21d3d86",
+                    "songs": [
+                        {
+                            "name": "Sweet Charity",
+                            "id": "25b03e08-3a3a-488e-9a36-5a0a7e478459",
+                            "note": "This is the opening track on the album, complete with Mike Pattons signature bombastic vocals. I have no idea what this song is about, but to me it evokes the feeling of the horror-movie trope of being in a remote, beachy town where something is sinister and not quite right."
+                        },
+                        {
+                            "name": "Mr. Bungle- Pink Cigarette Music Video",
+                            "id": "63a79672-d327-4d19-a86e-587523d07c32",
+                            "note": "I love this song. This track is maybe the most accessible track Mr. Bungle has ever made, and demonstrates Patton's phenomental vocal range. The 'Pink Cigarette' is both a metaphor for a love that is intense but ultimately temporarily, and the literal cigarette left by Pattons star-crossed lover. Worth noting, the music video is unofficial."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "My Chemical Romance",
+            "note": "",
+            "albums": [
+                {
+                    "name": "The Black Parade",
+                    "id": "d09de1f8-0ad8-37cc-ac71-342890279916",
+                    "songs": [
+                        {
+                            "name": "My Chemical Romance - The Sharpest Lives",
+                            "id": "bc25529c-ea16-46cb-8bb5-792b10ecf5a2",
+                            "note": "The opening track on massive attacks first, and most classic, album. Just a smooth trip-hop sound mixed with british vocals of questionable quality."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pinback",
+            "albums": [
+                {
+                    "name": "Pinback",
+                    "id": "a4f059bd-881f-4805-bb5f-0ad098558253",
+                    "songs": [
+                        {
+                            "name": "Crutch",
+                            "id": "cafe60d4-2984-4179-aa92-8c03e339915b",
+                            "note": "A lighthearted indie track with great instrumentation. 'Boo' is another great track from this band, that couldn't really fit into the playlist."
+                        }
+                    ]
+                },
+                {
+                    "name": "Summer in Abaddon",
+                    "id": "cefee04c-9dcc-427f-99a1-69549297c7f8",
+                    "songs": [
+                        {
+                            "name": "Non Photo-Blue",
+                            "id": "63a56b8a-a972-43a6-bb0e-2110e43fab26",
+                            "note": "A lighthearted indie track with great instrumentation. 'Boo' is another great track from this band, that couldn't really fit into the playlist."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Your Old Droog",
+            "note": "Brooklyn rapper Your Old Droog sounded so much like NAS on his introduction to the scene that people thought he was a NAS alter-ego, Droog took this as a compliment.",
+            "albums": [
+                {
+                    "name": "DBZ",
+                    "id": "009b29f5-fc0b-4cae-906f-ed9ef1d20fc0",
+                    "songs": [
+                        {
+                            "name": "Your Old Droog - DBZ ft. Denzel Curry, Method Man (Official Video)",
+                            "id": "a48c99bd-0068-461b-aaa1-f246be43341a",
+                            "note": "On this smooth, vintage sounding traffic over Madlib production. Denzel Curry, Droog, and the legendary Method Man collaborate over a smooth Madlib beat. Anyone who says real hip-hop is dead isn't looking hard enough."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Zerfas",
+            "note": "Zerfas was a psych-rock group out of indianapolis. Often described as what would happen if The Beattles leaned more into the psych sound on 'Revolver',",
+            "albums": [
+                {
+                    "name": "Zerfas",
+                    "id": "744b6d8e-bee6-45c3-a90d-409731fd7368",
+                    "note": "This project was recorded and released in 1979 as the bands only album. It went on to become an underground classic, with copies of the original vinyl pressing selling for thousands of dollars. Zerfas continued to make music under the name 'Jubal' after its release.",
+                    "songs": [
+                        {
+                            "name": "Zerfas - You Never Win",
+                            "id": "06eb5739-81cc-4b83-a526-995851bcd78d",
+                            "note": "This is the opening track on the album, dominated by a distorted and heavy riff. The sarcastic and dementing vocals, to me, represent your inner voice at a point when you're most harsh on yourself."
+                        },
+                        {
+                            "name": "The Piper",
+                            "id": "be8b30fe-cfdc-44ce-a3f4-486f9b599f07",
+                            "note": "This is the final track on the album, a dreamy and psychedelic track referencing the story of the Pied Piper. If there was ever song Zerfas should have gotten famous for, it's this one. The version played here is a special release, and was not on the original album."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
