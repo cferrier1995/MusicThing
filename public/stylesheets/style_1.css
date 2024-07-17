@@ -22,7 +22,37 @@ h2 {
 
 p {
   line-height: 1.5;
-  font-size: 1.65rem;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 480px) {
+    p {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 480px) {
+    p {
+        font-size: 21px;
+    }
+}
+
+@media (min-width: 768px) {
+    p {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 992px) {
+    p {
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 1200px) {
+    p {
+        font-size: 24px;
+    }
 }
 
 .bg_img {
