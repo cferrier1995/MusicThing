@@ -12,17 +12,17 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 2.5vmax;
   margin-bottom: 0.5rem;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.0vmin;
 }
 
 p {
   line-height: 1.5;
-  font-size: 1.2rem;
+  font-size: 1.5vmin;
   text-shadow: black 0px 0px 10px;
 }
 
