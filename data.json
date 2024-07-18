@@ -64,18 +64,52 @@
             ]
         },
         {
+            "name": "Greydon Square",
+            "note": "'Science Rapper' Greydon Square had an issue with being too angry on his early works. It was hard to relate and vibe with a man very clearly pissed at the world. By this point in his discography, he had clearly turned that feeling into an optimism that his ideas might improve peoples lives.",
+            "albums": [
+                {
+                    "name": "The Mandelbrot Set",
+                    "id": "a8a0a1c1-46df-4a4c-81e3-1255924d0049",
+                    "note": "This album came out when I was in highschool and, in my opinion, sounds better than when it was released. Greydon is able to cover up even his most half-baked ideas by spitting so Illy that dig what he's saying anyways.",
+                    "songs": [
+                        {
+                            "name": "Peace Peace",
+                            "id": "d155000c-2032-4eb8-bd08-172522fdfdde"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Injury Reserve",
-            "note": "Placeholder",
+            "note": "Injury Reserve was a rap group formed of producer Parker Corey, Nathaniel Ritchie, and Stppa J. Groggs.",
             "albums": [
                 {
                     "name": "By The Time I Get To Phoenix",
                     "id": "1c0924e1-dbce-4fa5-9963-e8d079d41690",
-                    "note": "Placeholder",
+                    "note": "They were a group that was finding their footing, when Groggs tragically died during the final stages of recording for this album. Due to the pandemic and general sentiment at the time, surviving members RiTchie and Parker Corey felt it appropriate to release the album still. It's been called the first 'post-rap' album due to it's innovative sound.",
                     "songs": [
                         {
                             "name": "Injury Reserve - Superman That",
                             "id": "d1cad05f-20e1-4ff6-ad2b-9eb58a842c84",
-                            "note": "Placeholder"
+                            "note": "The top comment on this song is 'Instant aux cord privledges revoked for life'. I hope you'll not judge it that harshly, maybe you'll even enjoy it."
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "name": "James Bay",
+            "note": "James Bay is Harry Styles for people that don't want to admit they listen to Harry Styles. The man makes some incredible, innovative pop music.",
+            "albums": [
+                {
+                    "name": "Electric Light",
+                    "id": "0388de0d-e7c9-45b3-bbb6-7d98ca8d7fe1",
+                    "songs": [
+                        {
+                            "name": "James Bay - Pink Lemonade",
+                            "id": "54cf3d7a-0869-4f38-ba97-a80a9de6daf2",
+                            "note": "This particular cut I heard on the radio going to/and from my office in San Bruno years ago. Bay has stuck with me as the type of guy that makes tracks worth staying current on. There's a real sense that he's your favoriate pop artists favoriate pop artist."
                         }
                     ]
                 }
@@ -83,7 +117,7 @@
         },
         {
             "name": "Joey Purp",
-            "note": "Joey Purp came onto the hip-hop scene in the mid 2010s with one of the most original, soulful, and creative sounds at the time. He was a part of the 'save money' group with Chance The Rapper and Vic Mensa. His music has, unfortunately, gone downhill after his initial releases. Fortunately, those early releases are timeless.",
+            "note": "Joey Purp came onto the hip-hop scene in the mid 2010s with one of the most original, soulful, and creative sounds at the time. He was a part of the 'save money' group with Chance The Rapper and Vic Mensa. While his mustic has gone downhill after his initial releases, Joey has already dropped some timeless hip-hop.",
             "albums": [
                 {
                     "name": "iiiDrops",
@@ -118,9 +152,68 @@
                 }
             ]
         },
+		{
+            "name": "Kendrick Lamar",
+            "albums": [
+                {
+                    "name": "Section 80",
+                    "id": "4ee0e10c-ea4e-4ac5-b06b-95d02aa42d29",
+					"note": "I think this album is an underrated moment in Kendricks discography and hip-hop as a whole. Kendrick felt less of the temptations involved with making a full-on concept album here and it gives the project room to breath. There's also a few tracks here that are a lot more genuinely upbeat and lighthearted than some of Kendricks later work.",
+                    "songs": [
+                        {
+                            "name": "Kendrick Lamar - A.D.H.D (Official Video)",
+                            "id": "5fb18e9d-fb24-4d96-8410-032d3fc89568"
+                        },
+						{
+                            "name": "Kendrick Lamar 'HiiiPOWER' OFFICIAL MUSIC VIDEO",
+                            "id": "5339459c-d3b2-44c8-bf30-11feb9d2db87",
+                            "note": "This track, the closer on the album, was apparently produced by J. Cole."
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "name": "Lupe Fiasco",
+			"note": "Placeholder",
+            "albums": [
+                {
+                    "name": "Samurai",
+                    "id": "8366f4a2-4d91-47a6-b787-c9faa1aeeb4f",
+					"note": "",
+                    "songs": [
+                        {
+                            "name": "Lupe Fiasco - Cake (Official Music Video)",
+                            "id": "ad905a9c-be59-47d4-a133-fe3085058853"
+                        },
+						{
+                            "name": "Lupe Fiasco - Samurai (Official Music Video)",
+                            "id": "bdfa2623-ac66-44ce-8e39-9251c936093d"
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "name": "Lucki",
+			"note": "Lucki is through-and-through an underground legend turned TikTok star. Known for his signature 'tired' flow, lean gut, and suprisingly honest lyrics.",
+            "albums": [
+                {
+                    "name": "WAKE UP LUCKI",
+                    "id": "157e31bb-41b3-45bb-95ec-b78fd7f8c1b0",
+					"note": "This album marked a point in Luckis career where he was becoming less underground, and needed to adopt a more commercially successful sound. Some fans hate this Lucki onwards, I still think he's pretty good",
+                    "songs": [
+                        {
+                            "name": "LUCKI & F1LTHY - U.G.K (Official Video)",
+                            "id": "43af602e-5431-4a56-8b60-43a7b0d6e710"
+                        }
+                    ]
+                }
+            ]
+        },
         {
             "name": "Mach Hommy",
-            "note": "Haitain Mach Hommy is a bit of an enigma. He's never revealed his face or name publically before, has never toured, and pulls his lyrics off of rap genius whenever they're posted. In short, he values his opacity. He's known for his quality beat selection, multi-lingualism and smooth bars on the haitain diaspora.",
+            "note": "Haitain rapper Mach Hommy is a bit of an enigma. He's never revealed his face or name publically before, has never toured, and pulls his lyrics off of rap genius whenever they're posted. In short, he values his opacity. He's known for his quality beat selection, multi-lingualism and smooth bars on the haitain diaspora.",
             "albums": [
                 {
                     "name": "Pray 4 Haiti",
@@ -200,6 +293,23 @@
                 }
             ]
         },
+		{
+            "name": "Paris Texas",
+            "note": "Is it okay to be a blatant industry plant if your music rocks? Paris Texas is a hip-hop duo out of LA testing this question. Along with acts like Teezo Touchdown and Kenny Mason, they're responsible for a sound-cloud inspired resurgence in the 'Rap-Rock' genere. Blending tradition rock instrumentals with hip-hop hi-hats and verse structures.",
+            "albums": [
+                {
+                    "name": "Red Hand Akimbo",
+                    "id": "d40e11f2-aabd-47eb-9490-6024c8f618e3",
+                    "songs": [
+                        {
+                            "name": "Paris Texas - girls like drugs (Official Video)",
+                            "id": "ce923052-bf43-45bb-99a6-167634eba2db",
+                            "note": "This song blew up smally when it first came out, and blew up bigly (apparently) after Kanye plugged it a few months ago. Thanks Kanye for ruining my hipster cred."
+                        }
+                    ]
+                }
+            ]
+        },
         {
             "name": "Pinback",
             "albums": [
@@ -227,6 +337,23 @@
                 }
             ]
         },
+		{
+            "name": "Young Thug",
+            "note": "I hope #YSLSteele can #FreeThug.",
+            "albums": [
+                {
+                    "name": "JEFFERY",
+                    "id": "23ffea4e-02a5-47d6-af66-be9077f0d483",
+                    "songs": [
+                        {
+                            "name": "Young Thug - Wyclef Jean [Official Video]",
+                            "id": "0f4aa1df-56cb-49c4-a6e2-55386f144b12",
+                            "note": "On top of the great beat and great vocals from Thug, I mostly just included this song for introducing the revolution concept of a diss-video."
+                        }
+                    ]
+                }
+            ]
+        },
         {
             "name": "Your Old Droog",
             "note": "Brooklyn rapper Your Old Droog sounded so much like NAS on his introduction to the scene that people thought he was a NAS alter-ego, Droog took this as a compliment.",
@@ -238,7 +365,7 @@
                         {
                             "name": "Your Old Droog - DBZ ft. Denzel Curry, Method Man (Official Video)",
                             "id": "a48c99bd-0068-461b-aaa1-f246be43341a",
-                            "note": "On this smooth, vintage sounding traffic over Madlib production. Denzel Curry, Droog, and the legendary Method Man collaborate over a smooth Madlib beat. Anyone who says real hip-hop is dead isn't looking hard enough."
+                            "note": "On this smooth, vintage sounding traffic over Madlib production. Denzel Curry, Droog, and the legendary Method Man collaborate over a smooth Madlib beat that proves anyone who says real hip-hop is dead isn't looking hard enough."
                         }
                     ]
                 }
