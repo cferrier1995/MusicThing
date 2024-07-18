@@ -56,6 +56,7 @@ p {
   overflow: scroll;
   padding: 40px 20px;
   height: 100vh;
+  -webkit-overflow-scrolling: touch;
 }
 
 .container > * {
