@@ -58,7 +58,6 @@ p {
 }
 
 .container > * {
-  flex: 1;
   margin-top: 32px;
 }
 
