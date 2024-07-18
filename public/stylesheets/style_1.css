@@ -12,18 +12,17 @@ body {
 }
 
 h1 {
-  font-size: 2.5vmax;
-  margin-bottom: 0.5rem;
+  margin-bottom: 8px;
+  font-size: 48px;
 }
 
 h2 {
-  font-size: 2.0vmin;
+  font-size: 24px;
 }
 
 p {
   line-height: 1.5;
-  font-size: 1.5vmin;
-  text-shadow: black 0px 0px 10px;
+  font-size: 16px;
 }
 
 .bg_img {
@@ -128,7 +127,7 @@ p {
 
 @media (min-width: 768px) {
   .container {
-    gap: 3rem;
+    gap: 48px;
     max-width: 1000px;
     margin: auto;
   }
@@ -140,7 +139,7 @@ p {
   }
 
   .container {
-    gap: 5rem;
+    gap: 80px;
     flex-direction: row;
   }
 }
