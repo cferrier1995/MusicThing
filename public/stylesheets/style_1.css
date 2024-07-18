@@ -23,6 +23,7 @@ h2 {
 p {
   line-height: 1.5;
   font-size: 1.2rem;
+  text-shadow: black 0px 0px 10px;
 }
 
 .bg_img {
