@@ -338,6 +338,71 @@
             ]
         },
 		{
+            "name": "J. D. (Puma) Lewis",
+            "albums": [
+                {
+                    "name": "Boogie On The Mainline",
+					"note": "I found this album while sorting through vinyls at Paradise of Replica in Chinatown. I told the owner to help me find stuff that 'wouldn't piss anyone off' and to round out some of the more experimental music I wanted to add to this playlist, I think the owner did a great job.",
+                    "id": "c436c383-a099-420f-a3a3-6333b58a08c6",
+                    "songs": [
+                        {
+                            "name": "Dancing Shoes",
+                            "id": "32e70bb8-7943-49a1-99e0-9850f7e76d31"
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "name": "Trust",
+            "albums": [
+                {
+                    "name": "Boogie On The Mainline",
+					"note": "I found this album while sorting through vinyls at Paradise of Replica in Chinatown. I told the owner to help me find stuff that 'wouldn't piss anyone off' and to round out some of the more experimental music I wanted to add to this playlist, I think the owner did a great job.",
+                    "id": "c436c383-a099-420f-a3a3-6333b58a08c6",
+                    "songs": [
+                        {
+                            "name": "It's Not Over",
+                            "id": "9f41d69e-b22f-41d2-a208-5599d4cf91aa"
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "name": "Imagination",
+            "albums": [
+                {
+                    "name": "Boogie On The Mainline",
+					"note": "I found this album while sorting through vinyls at Paradise of Replica in Chinatown. I told the owner to help me find stuff that 'wouldn't piss anyone off' and to round out some of the more experimental music I wanted to add to this playlist, I think the owner did a great job.",
+                    "id": "c436c383-a099-420f-a3a3-6333b58a08c6",
+                    "songs": [
+                        {
+                            "name": "Strawberry Wine",
+                            "id": "a6cc54d8-0199-4700-b99d-0d5466d76f53"
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "name": "Stroer",
+            "note": "I found this group while sorting through vinyls at Paradise of Replica in Chinatown. I told the owner to help me find stuff that 'wouldn't piss anyone off' and to round out some of the more experimental music I wanted to add to this playlist, I think the owner did a great job.",
+            "albums": [
+                {
+                    "name": "Boogie On The Mainline",
+					"note": "I found this album while sorting through vinyls at Paradise of Replica in Chinatown. I told the owner to help me find stuff that 'wouldn't piss anyone off' and to round out some of the more experimental music I wanted to add to this playlist, I think the owner did a great job.",
+                    "id": "c436c383-a099-420f-a3a3-6333b58a08c6",
+                    "songs": [
+                        {
+                            "name": "Don't Stay For Breakfast",
+                            "id": "ba30636f-c636-439f-ac4a-ec18ba7ab08f"
+                        }
+                    ]
+                }
+            ]
+        },
+		{
             "name": "Young Thug",
             "note": "I hope #YSLSteele can #FreeThug.",
             "albums": [
@@ -366,6 +431,43 @@
                             "name": "Your Old Droog - DBZ ft. Denzel Curry, Method Man (Official Video)",
                             "id": "a48c99bd-0068-461b-aaa1-f246be43341a",
                             "note": "On this smooth, vintage sounding traffic over Madlib production. Denzel Curry, Droog, and the legendary Method Man collaborate over a smooth Madlib beat that proves anyone who says real hip-hop is dead isn't looking hard enough."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Portishead",
+            "note": "Portishead are trip-hop legends, and this album is consistently ranked in the top 100 albums of all time. Unfortunately, the majority of tracks are too gloomy or low-key to be playable at a party. ",
+            "albums": [
+                {
+                    "name": "Dummy",
+                    "id": "76df3287-6cda-33eb-8e9a-044b5e15ffdd",
+                    "songs": [
+                        {
+                            "name": "Strangers",
+                            "id": "e97f805a-ab48-4c52-855e-07049142113d",
+							"note": "'Strangers' is fortunately an exception to this rule. Like a lot of trip-hop, the drums and drum samples really dominate here, and Beth Gibbons vocals are incredible."
+                        }
+                    ]
+                }
+            ]
+        },
+		 {
+            "name": "The Bridge",
+            "note": "This is another record-store vinyl find solicitied from Paradise of Replica in Chinatown. Smooth 1970s indie rock straight from the UK.",
+            "albums": [
+                {
+                    "name": "Shame Is A Girl",
+                    "id": "744b6d8e-bee6-45c3-a90d-409731fd7368",
+                    "songs": [
+                        {
+                            "name": "The Bridge - Shame is A Girl",
+                            "id": "3dc6576e-5155-46a4-aede-05f51f1c9096"
+                        },
+                        {
+                            "name": "The Bridge - Torn Between Two Lives",
+                            "id": "af193c39-c344-4f26-b308-cdba95aa59e8"
                         }
                     ]
                 }
