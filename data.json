@@ -2,27 +2,25 @@
     "artists": [
         {
             "name": "Cleopatrick",
-            "note": "Placeholder",
+            "note": "Canadian Rock Duo Cleopatrick are the future of the genre. With an innovative sound built on strong influence of their contemporaries, they mix a grimy hardcore sound with grunge for impressive tracks with only two people.",
             "albums": [
                 {
                     "name": "Bummer!",
                     "id": "7088a214-bef0-41b7-bf52-3c25feed7587",
-                    "note": "Placeholder",
+                    "note": "If you liked any of the songs from this album, I'd really recommend just checking out the whole thing. They all sound just as energentic and punchy.",
                     "songs": [
                         {
                             "name": "cleopatrick - THE DRAKE (Official Lyric Video)",
                             "id": "dc027fcf-317d-4e5c-af6d-9098b8f7f448",
-                            "note": "Placeholder"
+			    "note": "This track is supposedly about the singer of the group, ian, being pressured by former highschool bullies into doing things he doesn't want to do after the groups show at the The Drake Hotel in Canada"
                         },
                         {
                             "name": "cleopatrick - GOOD GRIEF (Official Video)",
-                            "id": "dfc2ffef-372e-4b4a-a51f-89077b6f53a3",
-                            "note": "Placeholder"
+                            "id": "dfc2ffef-372e-4b4a-a51f-89077b6f53a3"
                         },
                         {
                             "name": "cleopatrick - FAMILY VAN (Official Video)",
-                            "id": "a3f373c7-1a54-4006-be02-8684ebe4e512",
-                            "note": "Placeholder"
+                            "id": "a3f373c7-1a54-4006-be02-8684ebe4e512"
                         }
                     ]
                 }
