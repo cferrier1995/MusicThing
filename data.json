@@ -173,12 +173,12 @@
         },
 		{
             "name": "Lupe Fiasco",
-			"note": "Placeholder",
+	    "note": "Despite not being as commercially successful as Kendrick or J. Cole., in the hip-hop space Lupe is every bit their peer.",
             "albums": [
                 {
                     "name": "Samurai",
                     "id": "8366f4a2-4d91-47a6-b787-c9faa1aeeb4f",
-					"note": "",
+		    "note": "This track is from a concept album by Lupe about Amy Winehouse becoming a battlerapper, based off of an (in)famous voicemail she left many years ago.",
                     "songs": [
                         {
                             "name": "Lupe Fiasco - Cake (Official Music Video)",
