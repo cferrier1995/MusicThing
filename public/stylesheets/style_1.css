@@ -1,5 +1,4 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background: #0a0a0a;
   color: white;
@@ -7,22 +6,26 @@ body {
   align-items: center;
   height: 100vh;
   box-sizing: border-box;
-  overflow: hidden;
   margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 h1 {
+  font-size: 24px;
   margin-bottom: 8px;
-  font-size: 48px;
+  margin-top: 0;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 18px;
+  margin: 4px 0 8px;
 }
 
 p {
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 12px;
+  margin: 4px 0;
 }
 
 .bg_img {
@@ -35,12 +38,14 @@ p {
   background-position: center;
   filter: blur(10px);
   z-index: -1;
+  overflow: hidden;
 }
 
 .bg_img img {
   object-position: center;
   object-fit: cover;
   filter: brightness(0.15);
+  width: 100vw;
   height: 100vh;
 }
 
@@ -48,16 +53,21 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: scroll;
+  padding: 40px 20px;
+  height: 100vh;
+  -webkit-overflow-scrolling: touch;
 }
 
 .container > * {
-  flex: 1;
+  margin-top: 32px;
 }
 
 .content_wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 32px;
 }
 
 .vinyl {
@@ -66,10 +76,14 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 500px;
-  height: 500px;
+  width: 50vw;
+  height: 50vw;
+  max-width: 500px;
+  max-height: 500px;
   border-radius: 100%;
   background: linear-gradient(-45deg, #333, black, #555, black, #333);
+  position: relative;
+  pointer-events: none;
 }
 
 .vinyl:before,
@@ -89,8 +103,10 @@ p {
 }
 
 .label {
-  width: 200px;
-  height: 200px;
+  width: 20vw;
+  height: 20vw;
+  max-width: 200px;
+  max-height: 200px;
   border-radius: 100%;
   z-index: 1;
   background-color: #e3e3e3;
@@ -129,13 +145,22 @@ p {
   .container {
     gap: 48px;
     max-width: 1000px;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
 @media (min-width: 1024px) {
   h1 {
-    margin-top: 0;
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
   }
 
   .container {
