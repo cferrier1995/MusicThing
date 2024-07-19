@@ -53,10 +53,10 @@
                 {
                     "name": "SuperGood",
                     "id": "0c03fac2-05b9-4d20-bac4-dcecb4cc9560",
-                    "note": "This is a more recent Duckwrth project, where he sheds a lot of his earlier creativity in favor of a more commercially palpably sound. This album is a lot more tradition R&B, and it's still smooth as hell",
+                    "note": "This is a more recent Duckwrth project, where he sheds a lot of his earlier creativity in favor of a more commercially palpably sound. That doesn't mean that it's bad though, not by a long shot. Duckwrth still maintains a lot of creativity in this lane.",
                     "songs": [
                         {
-                            "name": "DUCKWRTH - Kiss U Right Now (Official Video)",
+                            "name": "DUCKWRTH - Kiss U Right Now (Official Visualizer)",
                             "id": "937524f7-89f8-4eba-83b0-de7ef12b7e21"
                         }
                     ]
@@ -82,12 +82,12 @@
         },
         {
             "name": "Injury Reserve",
-            "note": "Injury Reserve was a rap group formed of producer Parker Corey, Nathaniel Ritchie, and Stppa J. Groggs.",
+            "note": "Injury Reserve was a rap group formed of producer Parker Corey, Nathaniel Ritchie, and Steppa J. Groggs.",
             "albums": [
                 {
                     "name": "By The Time I Get To Phoenix",
                     "id": "1c0924e1-dbce-4fa5-9963-e8d079d41690",
-                    "note": "They were a group that was finding their footing, when Groggs tragically died during the final stages of recording for this album. Due to the pandemic and general sentiment at the time, surviving members RiTchie and Parker Corey felt it appropriate to release the album still. It's been called the first 'post-rap' album due to it's innovative sound.",
+                    "note": "They were beginning to find their footing in the music scene, when Groggs tragically died during the final stages of recording for this album. Due to the pandemic and general sentiment at the time, surviving members RiTchie and Parker Corey felt it appropriate to release the album still. I absolutely love this project.",
                     "songs": [
                         {
                             "name": "Injury Reserve - Superman That",
@@ -140,7 +140,7 @@
                             "note": "This cut from Joey's first album is dreamy track that reminds of a quiet day at the park."
                         },
                         {
-                            "name": "Godbody (Pt. 2) (feat. RZA)",
+                            "name": "Godbody (Pt. 2)",
                             "id": "beb296a2-b5c3-40bc-8cb4-a865535ed0c8",
                             "note": "This is the second track from Joey Purps first album, technically a pt.2 to 'Godbody' from his mixtape. It features a brilliant spoken word intro from RZA and regal produciton."
                         },
@@ -287,7 +287,7 @@
                         {
                             "name": "My Chemical Romance - The Sharpest Lives",
                             "id": "bc25529c-ea16-46cb-8bb5-792b10ecf5a2",
-                            "note": "The opening track on massive attacks first, and most classic, album. Just a smooth trip-hop sound mixed with british vocals of questionable quality."
+                            "note": "A 'forgotten' cut from maybe the best emo album of all time. Makes me want to buy a walkman."
                         }
                     ]
                 }
@@ -342,6 +342,7 @@
             "albums": [
                 {
                     "name": "Boogie On The Mainline",
+					"cover": "boogie-on-the-mainline.jpg",
 					"note": "I found this album while sorting through vinyls at Paradise of Replica in Chinatown. I told the owner to help me find stuff that 'wouldn't piss anyone off' and to round out some of the more experimental music I wanted to add to this playlist, I think the owner did a great job.",
                     "id": "c436c383-a099-420f-a3a3-6333b58a08c6",
                     "songs": [
@@ -358,6 +359,7 @@
             "albums": [
                 {
                     "name": "Boogie On The Mainline",
+					"cover": "boogie-on-the-mainline.jpg",
 					"note": "I found this album while sorting through vinyls at Paradise of Replica in Chinatown. I told the owner to help me find stuff that 'wouldn't piss anyone off' and to round out some of the more experimental music I wanted to add to this playlist, I think the owner did a great job.",
                     "id": "c436c383-a099-420f-a3a3-6333b58a08c6",
                     "songs": [
@@ -374,6 +376,7 @@
             "albums": [
                 {
                     "name": "Boogie On The Mainline",
+					"cover": "boogie-on-the-mainline.jpg",
 					"note": "I found this album while sorting through vinyls at Paradise of Replica in Chinatown. I told the owner to help me find stuff that 'wouldn't piss anyone off' and to round out some of the more experimental music I wanted to add to this playlist, I think the owner did a great job.",
                     "id": "c436c383-a099-420f-a3a3-6333b58a08c6",
                     "songs": [
@@ -387,10 +390,10 @@
         },
 		{
             "name": "Stroer",
-            "note": "I found this group while sorting through vinyls at Paradise of Replica in Chinatown. I told the owner to help me find stuff that 'wouldn't piss anyone off' and to round out some of the more experimental music I wanted to add to this playlist, I think the owner did a great job.",
             "albums": [
                 {
                     "name": "Boogie On The Mainline",
+					"cover": "boogie-on-the-mainline.jpg",
 					"note": "I found this album while sorting through vinyls at Paradise of Replica in Chinatown. I told the owner to help me find stuff that 'wouldn't piss anyone off' and to round out some of the more experimental music I wanted to add to this playlist, I think the owner did a great job.",
                     "id": "c436c383-a099-420f-a3a3-6333b58a08c6",
                     "songs": [
@@ -404,16 +407,17 @@
         },
 		{
             "name": "Young Thug",
-            "note": "I hope #YSLSteele can #FreeThug.",
+            "note": "#FreeThug",
             "albums": [
                 {
                     "name": "JEFFERY",
                     "id": "23ffea4e-02a5-47d6-af66-be9077f0d483",
+					"note": "This is the opener for what a lot of people consider to be Young Thugs best album, although that's often debated with Barter 6.",
                     "songs": [
                         {
                             "name": "Young Thug - Wyclef Jean [Official Video]",
                             "id": "0f4aa1df-56cb-49c4-a6e2-55386f144b12",
-                            "note": "On top of the great beat and great vocals from Thug, I mostly just included this song for introducing the revolution concept of a diss-video."
+                            "note": "On top of the great beat and great vocals from Thug, I mostly just included this song for introducing the revolution concept of a diss-video. If you ever get a chance to check out the music video for this song outside of this party, I'd recommend it."
                         }
                     ]
                 }
@@ -459,7 +463,8 @@
             "albums": [
                 {
                     "name": "Shame Is A Girl",
-                    "id": "744b6d8e-bee6-45c3-a90d-409731fd7368",
+					"cover": "shame-is-a-girl.jpg",
+                    "id": "ff6049fb-2845-470b-a07d-d5c16b304c74",
                     "songs": [
                         {
                             "name": "The Bridge - Shame is A Girl",

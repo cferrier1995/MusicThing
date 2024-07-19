@@ -26,10 +26,11 @@ function Artist(name, note) {
   this.note = note;
 }
 
-function Album(id, note, is_loved = false) {
+function Album(id, note, is_loved = false, cover = "") {
   this.id = id;
   this.note = note;
   this.is_loved = is_loved;
+  this.cover = cover;
 }
 
 // Gets info on an album from the musicbrainz API.
@@ -102,6 +103,8 @@ async function UpdateSongData() {
         cover_art_url = image.image;
       }
     }
+  } else {
+	  cover_art_url = "";
   }
   album_name = album.title;
   if (album_name == song_entry.artist.name) {
